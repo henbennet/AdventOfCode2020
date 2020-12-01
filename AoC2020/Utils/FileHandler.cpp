@@ -1,4 +1,5 @@
 #include "FileHandler.h"
+#include <string>
 
 string FileHandler::readLine(string filename)
 {
@@ -28,6 +29,22 @@ string FileHandler::readFile(string filename)
         while (myfile >> line) {
             file.append(line);
             file.append(";");
+        }
+        myfile.close();
+    }
+    else cout << "Unable to open file";
+    return file;
+}
+
+vector<int> FileHandler::readFileVecInt(string filename)
+{
+    vector<int> file;
+    string line;
+    ifstream myfile(filename);
+    if (myfile.is_open())
+    {
+        while (myfile >> line) {
+            file.push_back(stoi(line));
         }
         myfile.close();
     }

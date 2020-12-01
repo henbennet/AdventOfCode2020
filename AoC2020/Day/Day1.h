@@ -5,6 +5,7 @@
 #include <vector>
 
 
+
 class Day1
 {
 public:

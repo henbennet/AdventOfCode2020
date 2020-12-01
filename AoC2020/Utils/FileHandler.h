@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 
 using namespace std;
 
@@ -11,5 +12,6 @@ public:
 	static string readLine(string filename);
 	static string readLine(string filename, int row);
 	static string readFile(string filename);
+	static vector<int> readFileVecInt(string filename);
 };
 
