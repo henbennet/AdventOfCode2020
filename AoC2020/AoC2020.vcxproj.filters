@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Day">
+      <UniqueIdentifier>{fdb460a4-b81d-4aab-bbf6-8ae1ad24de67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day">
+      <UniqueIdentifier>{c635c5cf-dc80-4309-bcc7-8505cc26ac6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{1b8d9a7c-cc6e-40da-a64c-c140b50318ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{27666c5b-3628-42fc-bce2-2cf7d2aabe62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Day\Day1.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileHandler.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StrHandler.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Day\Day1.cpp">
+      <Filter>Source Files\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileHandler.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StrHandler.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\Day1Test.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day1a.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day1b.txt">
+      <Filter>res</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
