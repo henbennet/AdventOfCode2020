@@ -36,6 +36,9 @@
     <ClInclude Include="Utils\StrHandler.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day2.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day\Day1.cpp">
@@ -50,6 +53,9 @@
     <ClCompile Include="Utils\StrHandler.cpp">
       <Filter>Source Files\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="Day\Day2.cpp">
+      <Filter>Source Files\Day</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="res\Day1Test.txt">
@@ -59,6 +65,12 @@
       <Filter>res</Filter>
     </Text>
     <Text Include="res\Day1b.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day2Test.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day2a.txt">
       <Filter>res</Filter>
     </Text>
   </ItemGroup>

@@ -1,8 +1,6 @@
 #pragma once
 
-#include <iostream>
-#include <fstream>
-#include <vector>
+#include "../stdafx.h"
 
 using namespace std;
 
@@ -11,7 +9,10 @@ class FileHandler
 public:
 	static string readLine(string filename);
 	static string readLine(string filename, int row);
-	static string readFile(string filename);
+	static string readFileToString(string filename);
+	static string readFileToString(string filename, string delim);
+	static vector<string> readFileVecStr(string filename);
 	static vector<int> readFileVecInt(string filename);
+	static vector<int> readFileVecInt_f(string filename);
 };
 

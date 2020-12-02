@@ -13,12 +13,12 @@ void Day1::run()
 	auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
 	
 	
-	cout << elapsed.count()*1e-3 << endl;
+	cout << elapsed.count()*1e-6 << endl;
 }
 
 void Day1::test()
 { 
-	string str = FileHandler::readFile("./res/Day1Test.txt");
+	string str = FileHandler::readFileToString("./res/Day1Test.txt");
 	vector<int> vector = StrHandler::splitInt(str, "([0-9]+)");
 	cout << "Searching ..." << endl;
 	for (int i = 0; i < vector.size(); i++) {
@@ -40,7 +40,7 @@ void Day1::test()
 
 void Day1::taskOne()
 {
-	string str = FileHandler::readFile("./res/Day1a.txt");
+	string str = FileHandler::readFileToString("./res/Day1a.txt");
 	vector<int> vector = StrHandler::splitInt(str, "([0-9]+)");
 	cout << "Searching ..." << endl;
 	for (int i = 0; i < vector.size(); i++) {
