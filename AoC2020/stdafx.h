@@ -8,5 +8,6 @@
 
 #include "Utils/FileHandler.h"
 #include "Utils/StrHandler.h"
+#include "Utils/Matrix.h"
 
 using namespace std;
