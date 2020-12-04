@@ -142,6 +142,7 @@
     <ClInclude Include="Day\Day1.h" />
     <ClInclude Include="Day\Day2.h" />
     <ClInclude Include="Day\Day3.h" />
+    <ClInclude Include="Day\Day4.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Utils\FileHandler.h" />
     <ClInclude Include="Utils\Matrix.h" />
@@ -151,6 +152,7 @@
     <ClCompile Include="Day\Day1.cpp" />
     <ClCompile Include="Day\Day2.cpp" />
     <ClCompile Include="Day\Day3.cpp" />
+    <ClCompile Include="Day\Day4.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Utils\FileHandler.cpp" />
     <ClCompile Include="Utils\Matrix.cpp" />
@@ -164,6 +166,8 @@
     <Text Include="res\Day2Test.txt" />
     <Text Include="res\Day3a.txt" />
     <Text Include="res\Day3Test.txt" />
+    <Text Include="res\Day4a.txt" />
+    <Text Include="res\Day4Test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

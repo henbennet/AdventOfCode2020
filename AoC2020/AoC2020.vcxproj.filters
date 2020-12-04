@@ -48,6 +48,9 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day\Day1.cpp">
@@ -71,6 +74,9 @@
     <ClCompile Include="Utils\Matrix.cpp">
       <Filter>Source Files\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="Day\Day4.cpp">
+      <Filter>Source Files\Day</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="res\Day1Test.txt">
@@ -92,6 +98,12 @@
       <Filter>res</Filter>
     </Text>
     <Text Include="res\Day3a.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day4a.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day4Test.txt">
       <Filter>res</Filter>
     </Text>
   </ItemGroup>
