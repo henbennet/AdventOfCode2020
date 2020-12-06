@@ -4,11 +4,11 @@
 #include "Day/Day2.h"
 #include "Day/Day3.h"
 #include "Day/Day4.h"*/
-#include "Day/Day5.h"
+#include "Day/Day6.h"
 
 using namespace std;
 
 int main(int argc, char* argv[]) { 
 
-	(new Day5())->run();
+	(new Day6())->run();
 }

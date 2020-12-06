@@ -144,6 +144,8 @@
     <ClInclude Include="Day\Day3.h" />
     <ClInclude Include="Day\Day4.h" />
     <ClInclude Include="Day\Day5.h" />
+    <ClInclude Include="Day\Day6.h" />
+    <ClInclude Include="other\AoCprofile.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Utils\FileHandler.h" />
     <ClInclude Include="Utils\Matrix.h" />
@@ -155,7 +157,9 @@
     <ClCompile Include="Day\Day3.cpp" />
     <ClCompile Include="Day\Day4.cpp" />
     <ClCompile Include="Day\Day5.cpp" />
+    <ClCompile Include="Day\Day6.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="other\AoCprofile.cpp" />
     <ClCompile Include="Utils\FileHandler.cpp" />
     <ClCompile Include="Utils\Matrix.cpp" />
     <ClCompile Include="Utils\StrHandler.cpp" />
@@ -171,6 +175,10 @@
     <Text Include="res\Day4a.txt" />
     <Text Include="res\Day4Test.txt" />
     <Text Include="res\Day5.txt" />
+    <Text Include="res\Day6.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="results\952422_2020-12-06_00.02.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -25,6 +25,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="res\result_aoc">
+      <UniqueIdentifier>{1ef08061-25fb-4a38-841f-543828f3e0c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day1.h">
@@ -48,10 +51,16 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day\Day4.h">
+    <ClInclude Include="Day\Day5.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="other\AoCprofile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day\Day5.h">
+    <ClInclude Include="Day\Day4.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Day\Day6.h">
       <Filter>Header Files\Day</Filter>
     </ClInclude>
   </ItemGroup>
@@ -81,6 +90,12 @@
       <Filter>Source Files\Day</Filter>
     </ClCompile>
     <ClCompile Include="Day\Day5.cpp">
+      <Filter>Source Files\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="other\AoCprofile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day6.cpp">
       <Filter>Source Files\Day</Filter>
     </ClCompile>
   </ItemGroup>
@@ -115,5 +130,13 @@
     <Text Include="res\Day5.txt">
       <Filter>res</Filter>
     </Text>
+    <Text Include="res\Day6.txt">
+      <Filter>res</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="results\952422_2020-12-06_00.02.json">
+      <Filter>res\result_aoc</Filter>
+    </None>
   </ItemGroup>
 </Project>
