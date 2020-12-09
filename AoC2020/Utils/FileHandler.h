@@ -12,7 +12,8 @@ public:
 	static string readFileToString(string filename);
 	static string readFileToString(string filename, string delim);
 	static vector<string> readFileVecStr(string filename);
+	static vector<double> readFileVecDouble(string filename);
 	static vector<int> readFileVecInt(string filename);
-	static vector<int> readFileVecInt_f(string filename);
+	//static vector<int> readFileVecInt_f(string filename);
 };
 

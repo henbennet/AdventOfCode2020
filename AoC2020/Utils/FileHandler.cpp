@@ -79,3 +79,18 @@ vector<int> FileHandler::readFileVecInt(string filename)
     return file;
 }
 
+vector<double> FileHandler::readFileVecDouble(string filename)
+{
+    vector<double> file;
+    string line;
+    ifstream myfile(filename);
+    if (myfile.is_open())
+    {
+        while (myfile >> line) {
+            file.push_back(stod(line));
+        }
+        myfile.close();
+    }
+    else cout << "Unable to open file";
+    return file;
+}

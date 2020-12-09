@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -145,6 +145,9 @@
     <ClInclude Include="Day\Day4.h" />
     <ClInclude Include="Day\Day5.h" />
     <ClInclude Include="Day\Day6.h" />
+    <ClInclude Include="Day\Day7.h" />
+    <ClInclude Include="Day\Day8.h" />
+    <ClInclude Include="Day\Day9.h" />
     <ClInclude Include="other\AoCprofile.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Utils\FileHandler.h" />
@@ -158,6 +161,9 @@
     <ClCompile Include="Day\Day4.cpp" />
     <ClCompile Include="Day\Day5.cpp" />
     <ClCompile Include="Day\Day6.cpp" />
+    <ClCompile Include="Day\Day7.cpp" />
+    <ClCompile Include="Day\Day8.cpp" />
+    <ClCompile Include="Day\Day9.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="other\AoCprofile.cpp" />
     <ClCompile Include="Utils\FileHandler.cpp" />
@@ -176,6 +182,10 @@
     <Text Include="res\Day4Test.txt" />
     <Text Include="res\Day5.txt" />
     <Text Include="res\Day6.txt" />
+    <Text Include="res\Day7.txt" />
+    <Text Include="res\Day8.txt" />
+    <Text Include="res\Day9.txt" />
+    <Text Include="res\Test.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="results\952422_2020-12-06_00.02.json" />
