@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day1.h" />
+    <ClInclude Include="Day\Day10.h" />
+    <ClInclude Include="Day\Day11.h" />
     <ClInclude Include="Day\Day2.h" />
     <ClInclude Include="Day\Day3.h" />
     <ClInclude Include="Day\Day4.h" />
@@ -156,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day\Day1.cpp" />
+    <ClCompile Include="Day\Day10.cpp" />
+    <ClCompile Include="Day\Day11.cpp" />
     <ClCompile Include="Day\Day2.cpp" />
     <ClCompile Include="Day\Day3.cpp" />
     <ClCompile Include="Day\Day4.cpp" />
@@ -171,6 +175,8 @@
     <ClCompile Include="Utils\StrHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="res\Day10.txt" />
+    <Text Include="res\Day11.txt" />
     <Text Include="res\Day1a.txt" />
     <Text Include="res\Day1b.txt" />
     <Text Include="res\Day1Test.txt" />

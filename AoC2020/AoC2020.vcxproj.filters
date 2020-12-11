@@ -72,6 +72,12 @@
     <ClInclude Include="Day\Day9.h">
       <Filter>Header Files\Day</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day11.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Day\Day10.h">
+      <Filter>Header Files\Day</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day\Day1.cpp">
@@ -115,6 +121,12 @@
     </ClCompile>
     <ClCompile Include="other\AoCprofile.cpp">
       <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day11.cpp">
+      <Filter>Source Files\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day10.cpp">
+      <Filter>Source Files\Day</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +173,12 @@
       <Filter>res</Filter>
     </Text>
     <Text Include="res\Day9.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day10.txt">
+      <Filter>res</Filter>
+    </Text>
+    <Text Include="res\Day11.txt">
       <Filter>res</Filter>
     </Text>
   </ItemGroup>
