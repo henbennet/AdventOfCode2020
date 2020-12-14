@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Day/Day12b.h"
+#include "Day/Day14.h"
 
 using namespace std;
 
 int main(int argc, char* argv[]) { 
 
-	(new Day12b())->run();
+	(new Day14())->run();
 }

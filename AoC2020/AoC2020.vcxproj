@@ -144,6 +144,8 @@
     <ClInclude Include="Day\Day11.h" />
     <ClInclude Include="Day\Day12.h" />
     <ClInclude Include="Day\Day12b.h" />
+    <ClInclude Include="Day\Day13.h" />
+    <ClInclude Include="Day\Day14.h" />
     <ClInclude Include="Day\Day2.h" />
     <ClInclude Include="Day\Day3.h" />
     <ClInclude Include="Day\Day4.h" />
@@ -164,6 +166,8 @@
     <ClCompile Include="Day\Day11.cpp" />
     <ClCompile Include="Day\Day12.cpp" />
     <ClCompile Include="Day\Day12b.cpp" />
+    <ClCompile Include="Day\Day13.cpp" />
+    <ClCompile Include="Day\Day14.cpp" />
     <ClCompile Include="Day\Day2.cpp" />
     <ClCompile Include="Day\Day3.cpp" />
     <ClCompile Include="Day\Day4.cpp" />
@@ -182,6 +186,8 @@
     <Text Include="res\Day10.txt" />
     <Text Include="res\Day11.txt" />
     <Text Include="res\Day12.txt" />
+    <Text Include="res\Day13.txt" />
+    <Text Include="res\Day14.txt" />
     <Text Include="res\Day1a.txt" />
     <Text Include="res\Day1b.txt" />
     <Text Include="res\Day1Test.txt" />

@@ -7,7 +7,9 @@ class StrHandler
 {
 public:
 	static vector<string> split(string input, string regex);
+	static vector<string> splitExc(string input, string regex);
 	static vector<string> splitWithDelim(string input, string delim);
+	static vector<int> splitIntWithDelim(string input, string delim);
 	static vector<int> splitInt(string input, string regex);
 
 	static size_t countOccurrences(string str, char find);
